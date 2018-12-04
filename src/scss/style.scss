@@ -3,6 +3,20 @@
 @import 'base/variables.scss';
 @import 'base/mixins.scss';
 
+body{
+  background: rgb(33,36,41);
+  background: -moz-linear-gradient(top, rgba(33,36,41,1) 0%, rgba(33,36,41,1) 25%, rgba(249,249,251,1) 25%, rgba(249,249,251,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(33,36,41,1) 0%,rgba(33,36,41,1) 25%,rgba(249,249,251,1) 25%,rgba(249,249,251,1) 100%);
+  background: linear-gradient(to bottom, rgba(33,36,41,1) 0%,rgba(33,36,41,1) 25%,rgba(249,249,251,1) 25%,rgba(249,249,251,1) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.navbar.bg-dark{
+  background-color: $dark !important;
+}
+
 
 
 
